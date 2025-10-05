@@ -4,7 +4,6 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Pageload from "./components/pageload";
 
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -25,10 +24,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      ><Navbar/>
+      > 
+        <Navbar/>
       <Pageload/>
         {children}
         <Footer/>
+         
       </body>
     </html>
   );
