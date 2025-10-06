@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image"
 import { LiaChessKnightSolid } from "react-icons/lia";
 import { FcSmartphoneTablet } from "react-icons/fc";
