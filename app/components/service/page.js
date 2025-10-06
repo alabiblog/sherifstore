@@ -6,6 +6,16 @@ import { GiBrain } from "react-icons/gi";
 import { FaRegThumbsUp } from "react-icons/fa";
 
 
+
+
+
+
+function handleSubmit(e) {
+    e.preventDefault();
+    // You can add your form submission logic here
+    alert("Form submitted!");
+}
+
 export default function Service(){
     return(
         <main className="min-h-screen">
